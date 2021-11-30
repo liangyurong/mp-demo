@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.sdyb.mp.dto.StudentDto;
 import com.sdyb.mp.entity.Student;
+import com.sdyb.mp.exception.MpException;
 import com.sdyb.mp.mapper.StudentMapper;
 import com.sdyb.mp.service.StudentService;
 import com.sdyb.mp.util.Result;
@@ -59,9 +60,6 @@ public class StudentController {
    */
   @PostMapping("/add")
   public Result add(@RequestBody StudentDto dto) {
-
-        Result result = new Result();
-
         Student student = new Student();
         student.setName(dto.getName());
         student.setMyEmail(dto.getMyEmail());
@@ -69,10 +67,12 @@ public class StudentController {
         // 插入成功返回1
         // 插入失败返回？
         int insert = studentMapper.insert(student);
+        System.out.println("insert="+insert);
 
         int code = insert==1 ? 0:1;
         String msg = code==0 ?"添加成功":"添加失败";
 
+        Result result = new Result();
         result.putCode(code);
         result.putMsg(msg);
         return result;
@@ -89,7 +89,7 @@ public class StudentController {
         Result result = new Result();
 
         QueryWrapper<Student> wrapper = new QueryWrapper<>();
-        wrapper.like("name","11");
+        wrapper.like("name","2");
 
         List list = studentService.list(wrapper);
 
@@ -98,6 +98,7 @@ public class StudentController {
 
         result.putCode(code);
         result.putMsg(msg);
+        result.putData(list);
         return result;
 
     }

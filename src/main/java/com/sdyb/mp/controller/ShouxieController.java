@@ -39,7 +39,11 @@ public class ShouxieController {
     return result;
   }
 
-  // MP: 根据条件查询，返回list
+  /**
+   * MP: 根据name进行模糊查询，返回list
+   * @param myEmail
+   * @return
+   */
   @GetMapping("getStudentLikeMyEmail")
   public Result list1(@RequestParam("myEmail") String myEmail) {
 
@@ -67,4 +71,6 @@ public class ShouxieController {
     Result result = new Result();
     return result;
   }
+
+
 }
