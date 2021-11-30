@@ -65,7 +65,7 @@ public class StudentController {
         student.setMyEmail(dto.getMyEmail());
 
         // 插入成功返回1
-        // 插入失败返回？
+        // 如果没有返回1，说明插入失败，则抛出异常
         int insert = studentMapper.insert(student);
         System.out.println("insert="+insert);
 
