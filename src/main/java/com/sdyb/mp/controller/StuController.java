@@ -34,18 +34,15 @@ public class StuController {
      */
     @GetMapping("/find")
     public Result getById(@RequestParam("id")String id){
-
-        Result result = new Result();
-
         Student entity = studentService.getById(id);
 
         int code = null==entity ? 1 :0;
         String msg = code==0 ? "根据id获取到对象":"根据id获取不到对象";
 
+        Result result = new Result();
         result.putCode(code);
         result.putMsg(msg);
         result.putData(entity);
-
         return result;
     }
 
