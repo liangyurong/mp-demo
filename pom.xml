@@ -107,7 +107,7 @@
 
     <build>
         <!--项目名称-->
-        <finalName>lhrm-aiyimei</finalName>
+        <finalName>mp-demo</finalName>
         <resources>
             <resource>
                 <directory>src/main/java</directory>

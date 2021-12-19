@@ -19,7 +19,7 @@
     <property name="LOG_HOME" value="D:/log"/>
 
     <!--日志文件输出的文件名 这里要把value改成工程名-->
-    <property name="projectName" value="lhrm-aiyimei"/>
+    <property name="projectName" value="mp-demo"/>
 
     <!-- 控制台输出 -->
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
