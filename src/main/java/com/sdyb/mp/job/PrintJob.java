@@ -8,6 +8,7 @@
 //
 //@Component
 //@EnableAsync
+// 定时任务：打印
 //public class PrintJob {
 //
 //    /** 该@Async注解是可以指定使用哪个线程池的。这样就可以在不同的线程池中执行不同的定时任务了 */

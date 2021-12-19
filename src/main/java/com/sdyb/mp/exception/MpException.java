@@ -25,5 +25,4 @@ public class MpException extends RuntimeException {
         this.msg = msg;
     }
 
-
 }

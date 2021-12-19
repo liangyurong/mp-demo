@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969cf42a-a94a-4a58-b059-e13e1277bc12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/ForTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/MyForTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/exception/MpException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/exception/MpException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/PrintJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/PrintJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/util/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdyb/mp/util/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sdyb/mp/test/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sdyb/mp/test/TestRun.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -147,45 +154,56 @@
     <session id="-1123736311">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="StudentController" value="1" />
-          <entry key="java" value="1072" />
+          <entry key="java" value="2926" />
           <entry key="txt" value="23" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1055" />
+          <entry key="JAVA" value="2909" />
           <entry key="PLAIN_TEXT" value="41" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="25" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="23" />
           <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/config/GlobalExceptionHandler.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="234">
+              <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,14 +211,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StuController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sdyb/mp/test/TestRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2518">
-              <caret line="143" column="22" lean-forward="true" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+            <state relative-caret-position="796">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/util/CodeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -208,15 +235,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/util/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
+            <state relative-caret-position="468">
               <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/ForTestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -225,8 +260,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/exception/MpException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="286">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -234,7 +269,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/ShouxieController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
+            <state relative-caret-position="663">
               <caret line="72" column="3" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -259,10 +294,15 @@
       <find>调用toSendGet</find>
       <find>toSendGet</find>
       <find>DateUtil</find>
+      <find>MpException</find>
+      <find>反射</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\lyr\IDEAProject\newIDEAProject\mp-demo\src\main\resources\mapper</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -270,14 +310,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/entity/VTestResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/config/MyMetaObjectHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/mapper/VPatientMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/mapper/VTestResultMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/config/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/entity/VPatient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/service/VPatientService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/util/Result.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/controller/VPatientController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/service/impl/VPatientServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/util/WebUtils.java" />
@@ -313,13 +345,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/controller/ShouxieController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/ShouxieController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/exception/MpException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/config/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StudentController" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/util/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/exception/MpException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/ForTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/PrintJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/MyForTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/ForTestController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sdyb/mp/test/TestRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/util/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/HyHealthBloodSugarOrder2Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/BloodSugarController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StuController.java" />
       </list>
     </option>
@@ -369,10 +409,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
-    <option name="y" value="112" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="816" />
+    <option name="y" value="195" />
+    <option name="width" value="1614" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -382,7 +422,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -616,8 +658,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -629,7 +669,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638425982223" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639760691040" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -665,7 +705,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RunApplication">
+  <component name="RunManager" selected="Application.StuController">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sdyb.mp.util.CodeGenerator" />
       <module name="mp-demo" />
@@ -679,12 +719,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sdyb.aiyimei.test.ResultData" />
+    <configuration name="StuController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sdyb.mp.controller.StuController" />
       <module name="mp-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sdyb.mp.test.*" />
+          <option name="PATTERN" value="com.sdyb.mp.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -692,20 +732,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sdyb.aiyimei.test.TestMain" />
-      <module name="mp-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sdyb.mp.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRun.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRun.testJoinerOnJoinWithNullValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mp-demo" />
       <extension name="coverage">
         <pattern>
@@ -715,13 +742,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sdyb.mp.test" />
       <option name="MAIN_CLASS_NAME" value="com.sdyb.mp.test.TestRun" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="METHOD_NAME" value="testJoinerOnJoinWithNullValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRun.towHoursLater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRun.testJoinerOnJoinWithNullValueButSkip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mp-demo" />
       <extension name="coverage">
         <pattern>
@@ -731,7 +758,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sdyb.mp.test" />
       <option name="MAIN_CLASS_NAME" value="com.sdyb.mp.test.TestRun" />
-      <option name="METHOD_NAME" value="towHoursLater" />
+      <option name="METHOD_NAME" value="testJoinerOnJoinWithNullValueButSkip" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRun.testJoiner_On_Join_WithNullValue_ButReplaceDefaultValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mp-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdyb.mp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sdyb.mp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sdyb.mp.test.TestRun" />
+      <option name="METHOD_NAME" value="testJoiner_On_Join_WithNullValue_ButReplaceDefaultValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -749,19 +792,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.RunApplication" />
-      <item itemvalue="JUnit.TestRun.towHoursLater" />
-      <item itemvalue="Application.TestMain" />
-      <item itemvalue="Application.ResultData" />
-      <item itemvalue="JUnit.TestRun.insert" />
+      <item itemvalue="JUnit.TestRun.testJoinerOnJoinWithNullValue" />
+      <item itemvalue="JUnit.TestRun.testJoinerOnJoinWithNullValueButSkip" />
+      <item itemvalue="JUnit.TestRun.testJoiner_On_Join_WithNullValue_ButReplaceDefaultValue" />
       <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="Application.StuController" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StuController" />
         <item itemvalue="Application.CodeGenerator" />
-        <item itemvalue="JUnit.TestRun.insert" />
-        <item itemvalue="Application.ResultData" />
-        <item itemvalue="Application.TestMain" />
-        <item itemvalue="JUnit.TestRun.towHoursLater" />
+        <item itemvalue="JUnit.TestRun.testJoiner_On_Join_WithNullValue_ButReplaceDefaultValue" />
+        <item itemvalue="JUnit.TestRun.testJoinerOnJoinWithNullValueButSkip" />
+        <item itemvalue="JUnit.TestRun.testJoinerOnJoinWithNullValue" />
       </list>
     </recent_temporary>
   </component>
@@ -807,7 +850,13 @@
       <workItem from="1638251445430" duration="53000" />
       <workItem from="1638251505743" duration="7000" />
       <workItem from="1638252083427" duration="11457000" />
-      <workItem from="1638350269841" duration="12284000" />
+      <workItem from="1638350269841" duration="13519000" />
+      <workItem from="1638494082219" duration="4144000" />
+      <workItem from="1638644225707" duration="1170000" />
+      <workItem from="1638771121546" duration="6553000" />
+      <workItem from="1639121113757" duration="5078000" />
+      <workItem from="1639374370781" duration="7470000" />
+      <workItem from="1639643038030" duration="7190000" />
     </task>
     <task id="LOCAL-00001" summary="通过解密获取到token">
       <created>1634732070633</created>
@@ -865,31 +914,17 @@
       <option name="project" value="LOCAL" />
       <updated>1638411733828</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="优化排版">
+      <created>1638426019673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638426019673</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRun_pageSelectVTestResult - 2021.11.01 at 14h 37m 14s.xml">
-      <configuration name="TestRun.pageSelectVTestResult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRun_pageSelectVTestResult - 2021.11.01 at 14h 38m 12s.xml">
-      <configuration name="TestRun.pageSelectVTestResult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRun_pageSelectVTestResult - 2021.11.01 at 14h 38m 48s.xml">
-      <configuration name="TestRun.pageSelectVTestResult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRun_pageSelectVTestResult - 2021.11.01 at 14h 39m 07s.xml">
-      <configuration name="TestRun.pageSelectVTestResult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRun_pageSelectVTestResult - 2021.11.01 at 14h 39m 35s.xml">
-      <configuration name="TestRun.pageSelectVTestResult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRun_towHoursLater - 2021.11.04 at 14h 49m 29s.xml">
-      <configuration name="TestRun.towHoursLater" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRun_insert - 2021.11.25 at 09h 24m 06s.xml">
-      <configuration name="TestRun.insert" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRun_insert - 2021.11.25 at 09h 24m 46s.xml">
       <configuration name="TestRun.insert" configurationId="JUnit" />
     </history-entry>
@@ -899,15 +934,36 @@
     <history-entry file="TestRun_insert - 2021.11.25 at 09h 45m 32s.xml">
       <configuration name="TestRun.insert" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRun_test - 2021.12.13 at 23h 02m 09s.xml">
+      <configuration name="TestRun.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRun_test - 2021.12.13 at 23h 02m 31s.xml">
+      <configuration name="TestRun.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRun_test - 2021.12.13 at 23h 03m 13s.xml">
+      <configuration name="TestRun.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRun_testJoinerOnJoinWithNullValue - 2021.12.13 at 23h 10m 36s.xml">
+      <configuration name="TestRun.testJoinerOnJoinWithNullValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRun_testJoinerOnJoinWithNullValueButSkip - 2021.12.13 at 23h 12m 08s.xml">
+      <configuration name="TestRun.testJoinerOnJoinWithNullValueButSkip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRun_testJoinerOnJoinWithNullValueButSkip - 2021.12.13 at 23h 13m 00s.xml">
+      <configuration name="TestRun.testJoinerOnJoinWithNullValueButSkip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRun_testJoiner_On_Join_WithNullValue_ButReplaceDefaultValue - 2021.12.13 at 23h 20m 15s.xml">
+      <configuration name="TestRun.testJoiner_On_Join_WithNullValue_ButReplaceDefaultValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191138000" />
+    <option name="totallyTimeSpent" value="223978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -915,10 +971,10 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.2664437" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.18283166" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.16610925" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.24972129" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.41025642" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -943,7 +999,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25159913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -951,11 +1007,11 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.124860644" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.18283166" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.12374582" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.41025642" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.23634337" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.41025642" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -1004,12 +1060,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="优化排版" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/test/TestMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/test/PostHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/test/APostHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/test/BPostHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/service/impl/VTokenServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/VTokenMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/service/VTestResultService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/service/VPatientService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/aiyimei/service/VTokenService.java" />
@@ -1044,13 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sdyb/mp/test/TestRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1058,23 +1101,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/config/ThreadPoolConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/config/QuartzConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,20 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/PrintJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1158,14 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2-sources.jar!/com/baomidou/mybatisplus/extension/toolkit/SqlHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1585">
@@ -1177,58 +1185,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
-          <folding>
-            <element signature="e#3033#3034#0" expanded="true" />
-            <element signature="e#3105#3106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/util/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StudentController" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StudentController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/ShouxieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="72" column="3" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/exception/MpException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/config/MybatisPlusConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/config/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,25 +1215,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/ForTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/PrintJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/job/MyForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/config/ThreadPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/config/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/util/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
+        <state relative-caret-position="468">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/exception/MpException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sdyb/mp/test/TestRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/util/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/BloodSugarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/entity/HyHealthBloodSugarOrder2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="158" column="7" lean-forward="true" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/mapper/HyHealthBloodSugarOrder2Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/ForTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/ShouxieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="72" column="3" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdyb/mp/controller/StuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2518">
-          <caret line="143" column="22" lean-forward="true" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+        <state relative-caret-position="234">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

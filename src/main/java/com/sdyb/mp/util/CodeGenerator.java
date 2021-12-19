@@ -66,10 +66,11 @@ public class CodeGenerator {
          * mysql数据源配置(需要修改为你的数据源)
          */
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/lyr?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8");
+        // 改url 、 数据库
+        dsc.setUrl("jdbc:mysql://rdsn1od0jeecno54lnm3lpublic.mysql.rds.aliyuncs.com:3306/hycloudof?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
-        dsc.setUsername("root");
-        dsc.setPassword("123456");
+        dsc.setUsername("sdyunban");
+        dsc.setPassword("sdyunban2015");
         mpg.setDataSource(dsc);
 
         /**
